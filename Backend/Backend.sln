@@ -1,10 +1,16 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend.AppHost", "Backend.AppHost\Backend.AppHost.csproj", "{E8074CE7-E764-4BDB-B97F-046C38010C59}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend.ServiceDefaults", "Backend.ServiceDefaults\Backend.ServiceDefaults.csproj", "{573B36AD-7765-415C-8606-3D72E906ADC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "aspire", "aspire", "{9A0571DA-033D-47C3-BA85-BD5942407D99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{07C91187-3845-470B-A833-2E3073B93879}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.Api", "Web.Api\Web.Api.csproj", "{35F02794-488B-427F-BAB0-53B72CC089F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,8 +26,17 @@ Global
 		{573B36AD-7765-415C-8606-3D72E906ADC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{573B36AD-7765-415C-8606-3D72E906ADC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{573B36AD-7765-415C-8606-3D72E906ADC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35F02794-488B-427F-BAB0-53B72CC089F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35F02794-488B-427F-BAB0-53B72CC089F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35F02794-488B-427F-BAB0-53B72CC089F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35F02794-488B-427F-BAB0-53B72CC089F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E8074CE7-E764-4BDB-B97F-046C38010C59} = {9A0571DA-033D-47C3-BA85-BD5942407D99}
+		{573B36AD-7765-415C-8606-3D72E906ADC0} = {9A0571DA-033D-47C3-BA85-BD5942407D99}
+		{35F02794-488B-427F-BAB0-53B72CC089F6} = {07C91187-3845-470B-A833-2E3073B93879}
 	EndGlobalSection
 EndGlobal

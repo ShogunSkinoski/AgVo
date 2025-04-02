@@ -16,4 +16,8 @@
     <PackageReference Include="Aspire.Hosting.Keycloak" Version="9.1.0-preview.1.25121.10" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Web.Api\Web.Api.csproj" />
+  </ItemGroup>
+
 </Project>
